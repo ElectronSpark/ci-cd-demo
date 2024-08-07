@@ -2,8 +2,8 @@
 apiVersion: deploy.cloud.google.com/v1
 kind: DeliveryPipeline
 metadata:
-  name: ci-cd-demo-cd
-description: Pipeline for deploying K8s microservice demo
+  name: cicd-demo-delivery-pipeline
+  description: Pipeline for deploying K8s microservice demo
 serialPipeline:
   stages:
   - targetId: staging
