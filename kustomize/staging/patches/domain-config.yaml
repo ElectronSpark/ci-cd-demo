@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: domain-config
 data:
-  DOMAIN: "demo-staging.electronspark.xyz"
+  DOMAIN: "web-demo-staging.electronspark.xyz"
