@@ -12,7 +12,7 @@ API_URL_PREFIX = f"http://{DOMAIN}/api"
 
 @app.route('/__test_probe')
 def get_index_title():
-    return "Demo Blog Website"
+    return "This Is a Demo Blog Website"
 
 # Routes for rendering HTML templates
 @app.route('/')
